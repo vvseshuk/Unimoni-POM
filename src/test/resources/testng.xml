@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Unimoni Test Suite" >    
+    <test name="TotalTests">
+        <classes>
+            <class name="com.unimoni.tests.LoginTest"/>
+			<class name="com.unimoni.tests.HomeTest"/>            
+        </classes>
+    </test>
+</suite>
